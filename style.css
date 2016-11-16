@@ -1,16 +1,13 @@
-body {
-    color: blue;
-    font-size: 40px;
-    text-align: center;
 
-    background-color: linen;
-
-
-}
 p {
     color: black;
     font-size: 30px;
     text-align: center;
+    background-color: yellow;
+
+}
+div.body {
+    background-color: black;
 }
 div.jumbotron {
   font-size: 40px;
@@ -27,4 +24,8 @@ div.button2 {
 div.form {
   font-size: 20px;
   background-color: orange;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
 }
