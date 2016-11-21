@@ -1,31 +1,41 @@
-
-p {
-    color: black;
-    font-size: 30px;
+ul.topnav li {float: left;}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    overflow: hidden;
+    background-color: white;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: 0D1E21;
     text-align: center;
-    background-color: yellow;
-
+    padding: 8px 10px;
+    transition: 0.5s;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+div.header {
+  font-size: 40px;
+  color: black;
+  background-color: D1D7D8;
+ font-family: cursive;
+ font-varient: bold;
+ text-align: left;
+}
+div.middle {
+  font-size: 30px;
+  color: black;
+  background-color: D1D7D8;
+ font-family: cursive;
+ font-varient: bold;
+ text-align: left;
 }
 div.body {
-    background-color: black;
-}
-div.jumbotron {
   font-size: 40px;
-   background-color: aqua;
-}
-div.button1 {
-  font-size: 30px;
-  background-color: red;
-}
-div.button2 {
-  font-size: 30px;
-  background-color: green;
-}
-div.form {
-  font-size: 20px;
-  background-color: orange;
-}
-body {
-    background-color: lightblue;
-    text-align: center;
+  color: black;
+  background-color: D1D7D8;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
 }
